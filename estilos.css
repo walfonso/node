@@ -1,0 +1,11 @@
+#contenedor-mains { 
+background-color:#E6E6E6;
+ width:450px; 
+ border: 2px solid;
+ border-radius: 25px;
+text-align: center;
+} 
+
+.oculto{
+	display: none;
+}

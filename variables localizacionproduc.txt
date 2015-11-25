@@ -1,0 +1,3 @@
+rsocial, nfantasia, domicilio, cpostal, provincia, ciudad, telefono, cuit, email, sweb, rubro, superficie, inflamable, residuos, cresiduos, ys, rgxp 
+
+'$rsocial', '$nfantasia', '$domicilio', '$cpostal', '$provincia', '$ciudad', '$telefono', '$cuit', '$email', '$sweb', '$rubro', '$superficie', '$inflamable', '$residuos', '$cresiduos', '$ys', '$rgxp'

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+</head>
+
+<body>
+<div id= "contenedor-mains">
+
+<form name="formulario" method="post" action="loc_switch.php" >
+ 
+
+<div id="datpers">  
+    Razon Social:<br>
+    <input type="text" name="ra_social" value="">
+    <br>
+    Apellido y Nombre:<br>
+    <input type="text" name="apeynom" value="">
+    <br>
+    Domicilio:<br>
+    <input type="text" name="domicilio" value="">
+    <br>
+     Telefono:<br>
+    <input type="text" name="telefono" value="">
+    <br>
+     email:<br>
+    <input type="text" name="email" value="">
+    <br><br>
+    <button onclick="mostrar()" type="button">Siguiente</button>
+      <br><br>
+</div>
+
+<div id="consulta"  class="oculto">  
+  Categoria:<br>
+  <select name ="categoria">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select><br>
+    Superficie:<br>
+    <input type="text" name="superficie" value="">
+    <br>
+    Cant. Inflamables:<br>
+    <input type="text" name="inflamables" value="">
+    <br>
+    Cant de Residuos:<br>
+    <input type="text" name="residuos" value="">
+    <br><br>
+    <input type="submit" value="Submit">
+</div>
+</form>
+</div>
+
+
+<script type="text/javascript">
+  function mostrar(){
+    document.getElementById('consulta').style.display = 'block';}
+</script>
+
+</body>
+</html>
+
+
